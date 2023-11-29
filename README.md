@@ -18,7 +18,7 @@ E-Activity zum bestimmen von der Tangentengleichung in einem bestimmten Punkt.
 
 ## Programs
 
-### Zest - Zentraler elastischer Stoß
+### zest - Zentraler elastischer Stoß
 
 Programm zur Berechnung der Geschwindigkeiten v nach einem zentralen elastischen Stoß zweier Körper mit der Masse m.
 Die benötigten Parameter sind ***m1, m2, v1, v2*** in *kg* und *m/s*. Ausgegeben werden die Geschwindigkeiten ***u1, u2*** in *m/s* nach dem Stoß.
@@ -39,7 +39,7 @@ u2 = 6 m/s
 
 ---
 
-### Zuest - Zentraler unelastischer Stoß
+### zuest - Zentraler unelastischer Stoß
 
 Programm zur Berechnung der Geschwindigkeit u nach einem zentralen elastischen Stoß zweier Körper mit der Masse m.
 Die benötigten Parameter sind ***m1, m2, v1, v2*** in *kg* und *m/s*. Ausgegeben wird die Geschwindigkeiten ***u*** in *m/s* nach dem Stoß und die Verformungsenergie ***deltaE*** in *J* nach dem Stoß.
@@ -59,3 +59,26 @@ deltaE = 2.857 J
 ```
 
 ---
+
+### wind - Abstand zweier windschiefer Geraden
+
+Programm zur Berechnung des Abstandes von zwei zueinander windschiefen Geraden. Es werden sowohl der Abstand als auch die Punkte G und H ausgegeben.
+
+Befehl zum Ausführen:
+```
+wind()
+```
+
+---
+
+### gP - Abstand Gerade-Punkt
+
+Programm zur Berechnung des Abstandes zwischen einem Punkt und einer Gerade. Es werden sowohl der Abstand als auch der Lotfußpunkt F ausgegeben.
+
+Befehl zum Ausführen:
+```
+gP()
+```
+```
+
+--- 
